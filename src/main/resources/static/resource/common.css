@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html > body, html > body .ProseMirror, html > body .toastui-editor-contents {
+	font-family: 'NanumSquareNeo-Variable', sans-serif;
+	text-underline-position: under;
+}
+
+html > body .ProseMirror, html > body .toastui-editor-contents {
+	font-size: 1.25rem;
+}
+
+.table-box-type > table {
+	width: 100%;
+}
+
+.border-bottom-line {
+	border-bottom: 1px solid #96948d;
+}
+
+.btns > .btn-text-color {
+	color:black;
+}
+
+.btns > .btn-text-color:hover {
+	color:white;
+}
+
+.menu-box {
+  text-align:center;
+}
+
+.menu-box ul {
+  background-color:#afafaf;
+}
+.menu-box > ul {
+  display:inline-block;
+  padding:0 20px;
+  border-radius:10px;
+}
+
+.menu-box > ul > li {
+  display:inline-block;
+}
+.menu-box ul > li {
+  position:relative;
+}
+
+.menu-box ul > li > a {
+  display:block;
+  padding:10px;
+  white-space:nowrap;
+}
+
+.menu-box ul > li:hover > a {
+  background-color:black;
+  color:white;
+}
+
+.menu-box > ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+}
+
+.menu-box > ul ul ul {
+  left:100%;
+  top:0;
+}
+
+.menu-box ul > li:hover > ul {
+  display:block;
+}
+
+
